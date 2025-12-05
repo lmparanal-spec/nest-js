@@ -1,42 +1,42 @@
 {
-  "name": "angel",
-  "version": "1.0.0",
-  "main": "dist/main.js",
-  "description": "",
-  "license": "ISC",
-  "scripts": {
-    "start": "node dist/main.js",
-    "start:prod": "node dist/main.js",
-    "start:dev": "ts-node-dev --respawn --transpile-only src/main.ts",
-    "build": "tsc -p tsconfig.json"
-  },
-  "dependencies": {
-    "@nestjs/common": "^11.1.9",
-    "@nestjs/core": "^11.1.9",
-    "@nestjs/jwt": "^11.0.1",
-    "@nestjs/passport": "^11.0.5",
-    "@nestjs/platform-express": "^11.1.9",
-    "@types/jsonwebtoken": "^9.0.10",
-    "bcryptjs": "^3.0.3",
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1",
-    "mysql2": "^3.15.3",
-    "passport": "^0.7.0",
-    "passport-jwt": "^4.0.1",
-    "reflect-metadata": "^0.2.2",
-    "rxjs": "^7.8.2"
-  },
-  "devDependencies": {
-    "@types/node": "^24.10.1",
-    "@types/passport-jwt": "^4.0.1",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.9.3"
-  },
-  "engines": {
-    "node": "22.x"
-  },
-  "startCommand": "npm run start",
-  "keywords": [],
-  "author": "",
-  "type": "commonjs"
+  "name": "angel",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "description": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node dist/main.js",
+    "start:prod": "node dist/main.js",
+    "start:dev": "ts-node-dev --respawn --transpile-only src/main.ts",
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.9",
+    "@nestjs/core": "^11.1.9",
+    "@nestjs/jwt": "^11.0.1",
+    "@nestjs/passport": "^11.0.5",
+    "@nestjs/platform-express": "^11.1.9",
+    "@types/jsonwebtoken": "^9.0.10",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mysql2": "^3.15.3",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/passport-jwt": "^4.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "startCommand": "npm run start",
+  "keywords": [],
+  "author": "",
+  "type": "commonjs"
 }
